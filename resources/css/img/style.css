@@ -406,3 +406,71 @@ a:active{
     color: #555;
     border-bottom: 1px solid transparent;
 }
+
+/* footer */
+footer{
+    background-color: #333;
+    padding: 60px;
+    font-size: 80%;
+}
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+.social-link{
+    list-style: none;
+    float: right;
+}
+.footer-nav li,
+.social-link li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer-nav li:last-child,
+.social-link li:last-child{
+    margin-right: 0;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-link li a:link,
+.social-link li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s ;
+}
+.footer-nav:hover,
+.footer-nav:active{
+    color: #ddd;
+}
+footer p{
+    color: #888;
+    text-align: center;
+    font-size: 90;
+    margin-top: 20px;
+}
+.social-link li a:link,
+.social-link li a:visited{
+    font-size: 170%;
+}
+
+.fab-fa-facebook-f,
+.fab-fa-twitter,
+.fab-fa-instagram,
+.fab-fa-google-plus-g{
+    transition: color 0.2s;
+}
+
+
+.fab-fa-facebook-f:hover{
+    color:#3b5998 ;
+}
+.fab-fa-twitter:hover{
+    color: #00aced;
+}
+.fab-fa-instagram:hover{
+    color: #517fa4;
+}
+.fab-fa-google-plus-g:hover{
+    color: #dd4b39;
+}

@@ -7,13 +7,15 @@
     box-sizing: border-box;
     
 }
-html{
+html,
+body{
     background-color: #fff;
     color: #555;
     font-family: 'Lato', sans-serif, 'Arial';
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 .clear-fix{zoom: 1}
 .clear-fix:after{
